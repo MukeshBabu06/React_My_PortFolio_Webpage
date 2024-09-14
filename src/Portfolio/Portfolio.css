@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Topmenu{
+    background-color: transparent !important;
+    box-shadow: none;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.mainpage{
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(./Assets/pxfuel1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+.Navmenu{
+    border-bottom: 3px solid transparent;
+}
+.Navmenu:hover{
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.content{
+    max-width: 100%;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Homeh5{
+    font-size: 25px;
+    margin: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+.Homeh1{
+    font-size: 80px;
+    margin: 5px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    text-align: center;
+}
+.Homeh3{
+    font-size: 45px;
+    margin: 2px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    text-align: center;
+}
+.Homep{
+    max-width: 800px;
+    margin: 5px auto;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    line-height: 30px;
+    font-weight: 600;
+}
+.HomeButon{
+    width: 148px;
+    height: 40px;
+    margin: 25px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: all .3s ease-in-out;
+}
+.HBtnLink{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;
+}
+.HomeButon a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: black;
+}
+.HomeButon a span{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 1px;
+}
+.HomeButon:hover{
+    transform: scale(1.05);
+}
+.HomeSocial{
+    position: absolute;
+    left: 15px;
+}
+.HomeSocial_icon{
+    display: flex;
+    flex-direction: column;
+    animation: Animation3 ease-in-out 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.HSoc_Icon{
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.HSoc_Icon:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+
+.about{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    color: white;
+    text-align: left;
+    padding: 25px 30px;
+    line-height: 30px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    
+}
+.abouth1{
+    text-align: center;
+    animation: Animation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.aboutcontent{
+    max-width: 75%;
+    animation: Animation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.abouth5{
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+}
+.aboutul h5{
+    font-size: 23px;
+    font-weight: bold;
+}
+.aboutul{
+    margin-left: -30px;
+}
+.aboutulli{
+    margin-left: 40px;
+}
+
+
+.Exper{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    padding: 30px 30px;
+    line-height: 30px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.Experh1{
+    text-align: center;
+    margin-bottom: 20px;
+    animation: Animation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Experul{
+    margin-left: -30px;
+    max-width: 75%;
+    animation: Animation3 ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Experulli{
+    margin-left: 40px;
+}
+.Experh6{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+.Portfol{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    padding: 10px 10px;
+}
+.Portfol1{
+    animation: Animation1 ease-in-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Portfolh1{
+    text-align: center;
+    margin-bottom: 20px;
+    animation: Animation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.PrjLink {
+    width: 300px;
+    height: 160px;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+.Prjcard{
+    width: 300px;
+    height: 170px;
+    background: transparent;
+    border: transparent;
+    border-radius: 15px;
+    Box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    position: relative;
+	overflow: hidden;
+}
+.Prjcard:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.342);
+    border: transparent;
+}
+.Prjcardtitle{
+    text-align: center;
+    color: white;
+    width: 100%;
+	height: 0;
+	background: linear-gradient(transparent);
+	backdrop-filter: blur(30px);
+    border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	font-size: 14px;
+    border: none;
+	transition: height 0.3s ease-in-out;
+}
+.Prjcardtitle h3{
+    font-weight: 500;
+	margin-top: 15%;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 23px;
+	letter-spacing: 2px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.PrjcardImg{
+    border-radius: 15px;
+    height: 160px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+.Prjcard:hover .Prjcardtitle{
+    height: 100%;
+}
+
+
+
+.skill{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    padding: 10px 30px;
+}
+.skill1{
+    text-align: center;
+    margin-bottom: 20px;
+    animation: Animation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.skill2{
+    text-align: center;
+    margin-bottom: 20px;
+    animation: Animation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Skillimg{
+    animation: Animation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Skillimg img{
+    width: 110px;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+    
+}
+.Skillimg img:hover {
+    transform: scale(1.06);
+    border: transparent;
+}
+.skill3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    animation: Animation3 ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.skill4{
+    animation: Animation3 ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.EDU{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    background-attachment: fixed;
+    color: white;
+    text-align: left;
+    padding: 30px 200px;
+}
+.EDUh1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.EDUh4{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.EDUh6{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Contact1 {
+    display: flex;
+    max-width: 380px;
+    height: 60px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.Contacth1{
+    animation: Animation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Contactsec{
+    animation: Animation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Contact1 span{
+    font-size: 29px;
+    margin-right: 10px;
+}
+.Contact1:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.Contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    animation: Animation3 ease-in-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Contact2 h2{
+    font-size: 30px;
+    margin: 15px;
+}
+.ContactSoc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Soc_Icon{
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    margin: 6px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.Soc_Icon:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+section .Homeh5{
+    animation: Animation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+section .Homeh1{
+    animation: Animation1 ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+section .Homeh3{
+    animation: Animation2 ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+section .Homep,.HomeButon{
+    animation: Animation3 ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes Animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-150%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Animation1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-40%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Animation2 {
+    0% {
+        opacity: 0;
+        transform: translateX(40%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Animation3 {
+    0% {
+        opacity: 0;
+        transform: translateY(55%);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
